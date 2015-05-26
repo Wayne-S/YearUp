@@ -36,28 +36,27 @@ public class DayOfWeek {
 			case("Sunday"):
 			{
 				System.out.println("I is a weekend,TURN UP");
-				break;
 			}
 				
 			
 			}
 			}
-			//if 	(dayOfWeek.equalsIgnoreCase("Saturday")
-				//||dayOfWeek.equalsIgnoreCase("Saturday"))
+			if 	(dayOfWeek.equalsIgnoreCase("Saturday")
+				||dayOfWeek.equalsIgnoreCase("Saturday"))
 				{
-				//System.out.println(dayOfWeek + " Is the Weekend!!!!");
+				System.out.println(dayOfWeek + " Is the Weekend!!!!");
 				}
-			//else if (dayOfWeek.equalsIgnoreCase("Monday")
-			//		||dayOfWeek.equalsIgnoreCase("Tuesday")
-			//		||dayOfWeek.equalsIgnoreCase("Wednesday")
-			//		||dayOfWeek.equalsIgnoreCase("Thursday")
-			//		||dayOfWeek.equalsIgnoreCase("Friday"))
+			else if (dayOfWeek.equalsIgnoreCase("Monday")
+					||dayOfWeek.equalsIgnoreCase("Tuesday")
+					||dayOfWeek.equalsIgnoreCase("Wednesday")
+					||dayOfWeek.equalsIgnoreCase("Thursday")
+					||dayOfWeek.equalsIgnoreCase("Friday"))
 			{
-				//System.out.println(dayOfWeek + " is a weekday, I have to go to the store");		
+				System.out.println(dayOfWeek + " is a weekday, I have to go to the store");		
 			}
-			//else
+			else
 			{
-			//	System.out.println(dayOfWeek + "is not even a valid day!!");
+				System.out.println(dayOfWeek + "is not even a valid day!!");
 			}
 		}
 }
