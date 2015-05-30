@@ -5,7 +5,7 @@ public class ChineseYear {
 	public static void main(String[] args){
 	}
 	
-	public void EvaluateChineseYear( int unknownYear)
+	public void EvaluateChineseYear(int unknownYear)
 	{
 		
 	
@@ -31,30 +31,29 @@ public class ChineseYear {
         case 4:
         System.out.print(unknownYear + "Year of Dragon");
                  break;
-        case 6:  
+        case 5:  
         System.out.print(unknownYear + " Year of snake");
                  break;
-        case 7:  
+        case 6:  
         System.out.print(unknownYear + "Year of horse");
                  break;
-        case 8:  
+        case 7:  
         System.out.print(unknownYear + "Year of sheep");
                  break;
-        case 9:  
+        case 8:  
         System.out.print(unknownYear + "Year of monkey");
                  break;
-        case 10: 
+        case 9: 
         System.out.print(unknownYear + "Year of rooster");
                  break;
-        case 11: 
+        case 10: 
         System.out.print(unknownYear + "Year of dog");
                  break;
-        case 12: 
+        case 11: 
         System.out.print(unknownYear + "Year of Pig");
                  break;
      
               
-
 
 	}
 		
