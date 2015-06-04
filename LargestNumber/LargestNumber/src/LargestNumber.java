@@ -43,7 +43,7 @@ public class LargestNumber
 		
 	}
 	
-	public static void LargestNumberUsingForLoop(int[] inputArray)
+	public static void LargestNumberUsingForLoop(int[] inputArrvay)
 	{ 
 		if (inputArray != null)
 		{
